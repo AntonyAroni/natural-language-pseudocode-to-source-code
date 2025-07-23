@@ -1,0 +1,14 @@
+./setup.sh
+
+
+
+source venv/bin/activate
+pip install -r requirements.txt
+
+./run_voice_to_code.sh --duration 10 --compile
+
+
+./run_voice_to_code.sh --duration 10 --model facebook/wav2vec2-base-960h --compile
+
+//test prueba ya existente
+./run_voice_to_code.sh --example --compile

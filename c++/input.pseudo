@@ -1,0 +1,30 @@
+algoritmo ejemplo
+var
+  numero entero
+  suma entero
+  contador entero
+inicio
+  escribir("Ingrese un número:")
+  leer(numero)
+  
+  si numero > 0 entonces
+    escribir("El número es positivo")
+    para i desde 1 hasta numero hacer
+      suma = suma + i
+      escribir("Sumando:")
+      escribir(i)
+    finpara
+    escribir("La suma es:")
+    escribir(suma)
+  sino
+    escribir("El número no es positivo")
+  finsi
+  
+  mientras contador <= 3 hacer
+    escribir("Contador:")
+    escribir(contador)
+    contador = contador + 1
+  finmientras
+  
+  escribir("Programa terminado")
+fin
