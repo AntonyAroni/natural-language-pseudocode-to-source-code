@@ -1,0 +1,16 @@
+
+/////
+    source venv/bin/activate
+
+    python main.py --output codigo_generado.py
+
+
+posibles ordenes:
+
+////
+
+        "Crear una función que calcule el factorial de un número"
+
+        "Hacer una función para sumar dos números"
+
+        "Crear un bucle for que imprima los números del 1 al 10"
